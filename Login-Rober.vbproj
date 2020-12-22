@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E841B193-653D-4641-A0B5-6C620E1669D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Login_Rober</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Project-prove\v15\.suo" />
+    <None Include=".vs\Project-prove\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\Project-prove\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\Project-prove\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\Project-prove\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="packages\Guna.UI2.WinForms.2.0.1.2\.signature.p7s" />
+    <None Include="packages\Guna.UI2.WinForms.2.0.1.2\Guna.UI2.WinForms.2.0.1.2.nupkg" />
+    <None Include="Project-prove\App.config" />
+    <None Include="Project-prove\bin\Debug\Project-prove.exe.config" />
+    <None Include="Project-prove\bin\Release\Project-prove.exe.config" />
+    <None Include="Project-prove\My Project\Settings.settings" />
+    <None Include="Project-prove\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Project-prove\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Project-prove\obj\Debug\Project-prove.vbproj.CopyComplete" />
+    <None Include="Project-prove\obj\Debug\Project-prove.vbproj.CoreCompileInputs.cache" />
+    <None Include="Project-prove\obj\Debug\Project-prove.vbproj.GenerateResource.cache" />
+    <None Include="Project-prove\obj\Release\Project-prove.vbproj.CopyComplete" />
+    <None Include="Project-prove\obj\Release\Project-prove.vbproj.CoreCompileInputs.cache" />
+    <None Include="Project-prove\obj\Release\Project-prove.vbproj.GenerateResource.cache" />
+    <None Include="Project-prove\packages.config" />
+    <None Include="Project-prove\Project-prove_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages\Guna.UI2.WinForms.2.0.1.2\icon.png" />
+    <Content Include="packages\Guna.UI2.WinForms.2.0.1.2\lib\net40\Guna.UI2.dll" />
+    <Content Include="packages\Guna.UI2.WinForms.2.0.1.2\LICENSE.txt" />
+    <Content Include="Project-prove\bin\Debug\Bunifu_UI_v1.5.3.dll" />
+    <Content Include="Project-prove\bin\Debug\Guna.UI.dll" />
+    <Content Include="Project-prove\bin\Debug\Guna.UI2.dll" />
+    <Content Include="Project-prove\bin\Debug\Project-prove.pdb" />
+    <Content Include="Project-prove\bin\Debug\Project-prove.xml" />
+    <Content Include="Project-prove\bin\Debug\System.Net.Http.dll" />
+    <Content Include="Project-prove\bin\Release\Bunifu_UI_v1.5.3.dll" />
+    <Content Include="Project-prove\bin\Release\Guna.UI.dll" />
+    <Content Include="Project-prove\bin\Release\Guna.UI2.dll" />
+    <Content Include="Project-prove\bin\Release\Project-prove.exe" />
+    <Content Include="Project-prove\bin\Release\Project-prove.pdb" />
+    <Content Include="Project-prove\bin\Release\Project-prove.xml" />
+    <Content Include="Project-prove\bin\Release\System.Net.Http.dll" />
+    <Content Include="Project-prove\My Project\Application.myapp" />
+    <Content Include="Project-prove\obj\Debug\Project-prove.exe" />
+    <Content Include="Project-prove\obj\Debug\Project-prove.pdb" />
+    <Content Include="Project-prove\obj\Debug\Project-prove.vbproj.FileListAbsolute.txt" />
+    <Content Include="Project-prove\obj\Debug\Project-prove.xml" />
+    <Content Include="Project-prove\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Project-prove\obj\Release\Project-prove.exe" />
+    <Content Include="Project-prove\obj\Release\Project-prove.pdb" />
+    <Content Include="Project-prove\obj\Release\Project-prove.vbproj.FileListAbsolute.txt" />
+    <Content Include="Project-prove\obj\Release\Project-prove.xml" />
+    <Content Include="Project-prove\obj\Release\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Project-prove\Project-prove.vbproj" />
+    <Content Include="Project-prove\Project-prove.vbproj.user" />
+    <Content Include="Project-prove\Resources\pexels-jeshootscom-714698.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Project-prove\Form11.Designer.vb">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Project-prove\Form11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project-prove\My Project\Application.Designer.vb" />
+    <Compile Include="Project-prove\My Project\AssemblyInfo.vb" />
+    <Compile Include="Project-prove\My Project\Resources.Designer.vb" />
+    <Compile Include="Project-prove\My Project\Settings.Designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project-prove\Form11.resx">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project-prove\My Project\Resources.resx" />
+    <EmbeddedResource Include="Project-prove\obj\Debug\Project_prove.Form11.resources" />
+    <EmbeddedResource Include="Project-prove\obj\Debug\Project_prove.Resources.resources" />
+    <EmbeddedResource Include="Project-prove\obj\Release\Project_prove.FrmLogin.resources" />
+    <EmbeddedResource Include="Project-prove\obj\Release\Project_prove.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
