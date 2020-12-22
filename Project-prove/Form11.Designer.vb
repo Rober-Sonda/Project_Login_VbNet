@@ -25,9 +25,6 @@ Partial Class Form11
         Me.components = New System.ComponentModel.Container()
         Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form11))
-        Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.PnlRecuperarPassword = New Guna.UI2.WinForms.Guna2Panel()
         Me.BtnSalirRecuperar = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel5 = New Guna.UI.WinForms.GunaLabel()
@@ -53,50 +50,14 @@ Partial Class Form11
         Me.BunifuColorTransition1 = New Bunifu.Framework.UI.BunifuColorTransition(Me.components)
         Me.BunifuTransition1 = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.PnlPortada = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
+        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
+        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.PnlRecuperarPassword.SuspendLayout()
         Me.PnlIniciarSesion.SuspendLayout()
         Me.PnlRegistro.SuspendLayout()
         Me.PnlPortada.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'GunaLabel3
-        '
-        Me.GunaLabel3.AutoSize = True
-        Me.GunaLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTransition1.SetDecoration(Me.GunaLabel3, BunifuAnimatorNS.DecorationType.None)
-        Me.GunaLabel3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
-        Me.GunaLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.GunaLabel3.Location = New System.Drawing.Point(135, 251)
-        Me.GunaLabel3.Name = "GunaLabel3"
-        Me.GunaLabel3.Size = New System.Drawing.Size(100, 20)
-        Me.GunaLabel3.TabIndex = 7
-        Me.GunaLabel3.Text = "Autenticación"
-        '
-        'GunaLabel1
-        '
-        Me.GunaLabel1.AutoSize = True
-        Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTransition1.SetDecoration(Me.GunaLabel1, BunifuAnimatorNS.DecorationType.None)
-        Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 14.0!)
-        Me.GunaLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.GunaLabel1.Location = New System.Drawing.Point(134, 226)
-        Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(137, 25)
-        Me.GunaLabel1.TabIndex = 5
-        Me.GunaLabel1.Text = "ROBER SONDA"
-        '
-        'GunaLabel2
-        '
-        Me.GunaLabel2.AutoSize = True
-        Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTransition1.SetDecoration(Me.GunaLabel2, BunifuAnimatorNS.DecorationType.None)
-        Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.GunaLabel2.Location = New System.Drawing.Point(54, 210)
-        Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(95, 72)
-        Me.GunaLabel2.TabIndex = 6
-        Me.GunaLabel2.Text = "RS"
         '
         'PnlRecuperarPassword
         '
@@ -491,6 +452,45 @@ Partial Class Form11
         Me.PnlPortada.Quality = 10
         Me.PnlPortada.Size = New System.Drawing.Size(323, 487)
         Me.PnlPortada.TabIndex = 8
+        '
+        'GunaLabel3
+        '
+        Me.GunaLabel3.AutoSize = True
+        Me.GunaLabel3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuTransition1.SetDecoration(Me.GunaLabel3, BunifuAnimatorNS.DecorationType.None)
+        Me.GunaLabel3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
+        Me.GunaLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.GunaLabel3.Location = New System.Drawing.Point(135, 251)
+        Me.GunaLabel3.Name = "GunaLabel3"
+        Me.GunaLabel3.Size = New System.Drawing.Size(100, 20)
+        Me.GunaLabel3.TabIndex = 7
+        Me.GunaLabel3.Text = "Autenticación"
+        '
+        'GunaLabel1
+        '
+        Me.GunaLabel1.AutoSize = True
+        Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuTransition1.SetDecoration(Me.GunaLabel1, BunifuAnimatorNS.DecorationType.None)
+        Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 14.0!)
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.GunaLabel1.Location = New System.Drawing.Point(134, 226)
+        Me.GunaLabel1.Name = "GunaLabel1"
+        Me.GunaLabel1.Size = New System.Drawing.Size(137, 25)
+        Me.GunaLabel1.TabIndex = 5
+        Me.GunaLabel1.Text = "ROBER SONDA"
+        '
+        'GunaLabel2
+        '
+        Me.GunaLabel2.AutoSize = True
+        Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuTransition1.SetDecoration(Me.GunaLabel2, BunifuAnimatorNS.DecorationType.None)
+        Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(80, Byte), Integer))
+        Me.GunaLabel2.Location = New System.Drawing.Point(54, 210)
+        Me.GunaLabel2.Name = "GunaLabel2"
+        Me.GunaLabel2.Size = New System.Drawing.Size(95, 72)
+        Me.GunaLabel2.TabIndex = 6
+        Me.GunaLabel2.Text = "RS"
         '
         'Form11
         '

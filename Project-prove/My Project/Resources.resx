@@ -121,4 +121,7 @@
   <data name="pexels-jeshootscom-714698" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-jeshootscom-714698.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pexels-pixabay-256520" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-pixabay-256520.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

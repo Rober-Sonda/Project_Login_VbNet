@@ -163,5 +163,8 @@
   <ItemGroup>
     <None Include="Resources\pexels-jeshootscom-714698.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-256520.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
