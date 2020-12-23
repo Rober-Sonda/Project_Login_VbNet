@@ -23,7 +23,7 @@ Partial Class Form11
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form11))
         Me.PnlRecuperarPassword = New Guna.UI2.WinForms.Guna2Panel()
         Me.BtnSalirRecuperar = New Guna.UI.WinForms.GunaLabel()
@@ -53,6 +53,7 @@ Partial Class Form11
         Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
+        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.PnlRecuperarPassword.SuspendLayout()
         Me.PnlIniciarSesion.SuspendLayout()
         Me.PnlRegistro.SuspendLayout()
@@ -417,33 +418,34 @@ Partial Class Form11
         '
         Me.BunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.Transparent
         Me.BunifuTransition1.Cursor = Nothing
-        Animation1.AnimateOnlyDifferences = True
-        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
-        Animation1.LeafCoeff = 0!
-        Animation1.MaxTime = 1.0!
-        Animation1.MinTime = 0!
-        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
-        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
-        Animation1.MosaicSize = 0
-        Animation1.Padding = New System.Windows.Forms.Padding(0)
-        Animation1.RotateCoeff = 0!
-        Animation1.RotateLimit = 0!
-        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
-        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
-        Animation1.TimeCoeff = 0!
-        Animation1.TransparencyCoeff = 1.0!
-        Me.BunifuTransition1.DefaultAnimation = Animation1
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
+        Animation2.LeafCoeff = 0!
+        Animation2.MaxTime = 1.0!
+        Animation2.MinTime = 0!
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
+        Animation2.MosaicSize = 0
+        Animation2.Padding = New System.Windows.Forms.Padding(0)
+        Animation2.RotateCoeff = 0!
+        Animation2.RotateLimit = 0!
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
+        Animation2.TimeCoeff = 0!
+        Animation2.TransparencyCoeff = 1.0!
+        Me.BunifuTransition1.DefaultAnimation = Animation2
         '
         'PnlPortada
         '
         Me.PnlPortada.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PnlPortada.BackgroundImage = CType(resources.GetObject("PnlPortada.BackgroundImage"), System.Drawing.Image)
         Me.PnlPortada.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PnlPortada.Controls.Add(Me.GunaLabel3)
+        Me.PnlPortada.Controls.Add(Me.Guna2CircleButton1)
         Me.PnlPortada.Controls.Add(Me.GunaLabel1)
+        Me.PnlPortada.Controls.Add(Me.GunaLabel3)
         Me.PnlPortada.Controls.Add(Me.GunaLabel2)
         Me.BunifuTransition1.SetDecoration(Me.PnlPortada, BunifuAnimatorNS.DecorationType.None)
-        Me.PnlPortada.GradientBottomLeft = System.Drawing.Color.Gold
+        Me.PnlPortada.GradientBottomLeft = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.PnlPortada.GradientBottomRight = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.PnlPortada.GradientTopLeft = System.Drawing.Color.DarkGreen
         Me.PnlPortada.GradientTopRight = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(90, Byte), Integer))
@@ -459,8 +461,8 @@ Partial Class Form11
         Me.GunaLabel3.BackColor = System.Drawing.Color.Transparent
         Me.BunifuTransition1.SetDecoration(Me.GunaLabel3, BunifuAnimatorNS.DecorationType.None)
         Me.GunaLabel3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
-        Me.GunaLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.GunaLabel3.Location = New System.Drawing.Point(135, 251)
+        Me.GunaLabel3.ForeColor = System.Drawing.Color.White
+        Me.GunaLabel3.Location = New System.Drawing.Point(127, 275)
         Me.GunaLabel3.Name = "GunaLabel3"
         Me.GunaLabel3.Size = New System.Drawing.Size(100, 20)
         Me.GunaLabel3.TabIndex = 7
@@ -472,8 +474,8 @@ Partial Class Form11
         Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuTransition1.SetDecoration(Me.GunaLabel1, BunifuAnimatorNS.DecorationType.None)
         Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 14.0!)
-        Me.GunaLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
-        Me.GunaLabel1.Location = New System.Drawing.Point(134, 226)
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.White
+        Me.GunaLabel1.Location = New System.Drawing.Point(125, 250)
         Me.GunaLabel1.Name = "GunaLabel1"
         Me.GunaLabel1.Size = New System.Drawing.Size(137, 25)
         Me.GunaLabel1.TabIndex = 5
@@ -485,12 +487,32 @@ Partial Class Form11
         Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
         Me.BunifuTransition1.SetDecoration(Me.GunaLabel2, BunifuAnimatorNS.DecorationType.None)
         Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
-        Me.GunaLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(10, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.GunaLabel2.Location = New System.Drawing.Point(54, 210)
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.White
+        Me.GunaLabel2.Location = New System.Drawing.Point(51, 236)
         Me.GunaLabel2.Name = "GunaLabel2"
         Me.GunaLabel2.Size = New System.Drawing.Size(95, 72)
         Me.GunaLabel2.TabIndex = 6
         Me.GunaLabel2.Text = "RS"
+        '
+        'Guna2CircleButton1
+        '
+        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
+        Me.BunifuTransition1.SetDecoration(Me.Guna2CircleButton1, BunifuAnimatorNS.DecorationType.None)
+        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
+        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(29, Byte), Integer), CType(CType(42, Byte), Integer))
+        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Location = New System.Drawing.Point(293, 239)
+        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Size = New System.Drawing.Size(87, 67)
+        Me.Guna2CircleButton1.TabIndex = 1
+        Me.Guna2CircleButton1.Text = ">"
+        Me.Guna2CircleButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2CircleButton1.UseTransparentBackground = True
         '
         'Form11
         '
@@ -499,10 +521,10 @@ Partial Class Form11
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 545)
-        Me.Controls.Add(Me.PnlPortada)
         Me.Controls.Add(Me.PnlIniciarSesion)
         Me.Controls.Add(Me.PnlRegistro)
         Me.Controls.Add(Me.PnlRecuperarPassword)
+        Me.Controls.Add(Me.PnlPortada)
         Me.BunifuTransition1.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form11"
@@ -548,4 +570,5 @@ Partial Class Form11
     Friend WithEvents BunifuColorTransition1 As Bunifu.Framework.UI.BunifuColorTransition
     Friend WithEvents BunifuTransition1 As BunifuAnimatorNS.BunifuTransition
     Friend WithEvents PnlPortada As Bunifu.Framework.UI.BunifuGradientPanel
+    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
 End Class

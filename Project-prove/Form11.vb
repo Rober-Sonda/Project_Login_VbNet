@@ -19,4 +19,7 @@
         BunifuTransition1.ShowSync(PnlIniciarSesion)
     End Sub
 
+    Private Sub Form11_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
